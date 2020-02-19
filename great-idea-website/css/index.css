@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	/*text-align: center;*/
+	width: 57%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	padding-top: 12px;
+	width: 48%
+	border: 2px solid black;
+	vertical-align: top;
+}
+
+nav a {
+	color: grey;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 56px;
+}
+
+nav a:hover {
+	color: maroon;
+}
+
+.section1 div{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 6%;
+	width: 48%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	padding-top: 100px;
+}
+
+section a {
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 30px;
+	border: 2px solid grey;
+}
+
+section a:hover {
+	color: white;
+	border: 2px solid maroon;
+	background-color: maroon;
+}
+
+.blackline {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.section2 div {
+	display: inline-block;
+	width: 45%;
+	margin: 2%;
+}
+
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.section3 div {
+	display: inline-block;
+	width: 28%;
+	margin:2%;
+}
+
+footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	color: maroon;
+}
+
+#copyright {
+	text-align: center;
+}
